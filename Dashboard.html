@@ -2,11 +2,27 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Dashboard</title>
+  <title>Dashboard - Gaming Portal</title>
 </head>
 <body>
-  <h1>Welcome to players.... dashboard</h1>
-  <p>This is a placeholder to what will hopefully become a full dashboard displaying player points</p>
+  <h1>Player Dashboard</h1>
+
+  <form action="DashboardServlet" method="post">
+    <label>Gamer Tag:</label><br>
+    <input type="text" name="gamerTag" required><br><br>
+
+    <label>Action:</label><br>
+    <select name="action" required>
+      <option value="earn">Earn Credits</option>
+      <option value="spend">Spend Credits</option>
+    </select><br><br>
+
+    <label>Amount:</label><br>
+    <input type="number" name="amount" min="1" required><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <p><a href="Login.html">Back to Login</a></p>
 </body>
 </html>
-s
