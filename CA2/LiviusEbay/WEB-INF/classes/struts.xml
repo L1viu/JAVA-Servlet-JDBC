@@ -1,0 +1,11 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="default" extends="struts-default">
+
+	<p>Struts page, I will add actions once I make the java file </p>
+		
+    </package>
+</struts>
