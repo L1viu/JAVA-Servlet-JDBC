@@ -4,16 +4,16 @@
 
 <html>
     <head>
-        <title>LiviusEbay - Logout</title>
+        <title>Login Failed</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     </head>
 
     <body>
-
-        <h1>You have been logged out of LiviusEbay. Have a good day!</h1>
+        <h1>Login Failed</h1>
+        <p>Incorrect username or password.</p>
         </br>
 
+        <a href="login.jsp">Try Again</a> </br>
         <a href="index.jsp">Back to Homepage</a>
-
     </body>
 </html>

@@ -4,15 +4,15 @@
 
 <html>
     <head>
-        <title>LiviusEbay - Logout</title>
+        <title>Registration Successful</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     </head>
 
     <body>
 
-        <h1>You have been logged out of LiviusEbay. Have a good day!</h1>
+        <h1>Congrats, you are now registered to LiviusEbay</h1>
         </br>
-
+        <a href="login.jsp">Go to Login</a> </br>
         <a href="index.jsp">Back to Homepage</a>
 
     </body>

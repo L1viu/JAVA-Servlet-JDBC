@@ -4,8 +4,19 @@
 
 <struts>
     <package name="default" extends="struts-default">
+	
+        <action name="registerUser" class="UserClass" method="register">
+            <result name="SUCCESS">/registersuccess.jsp</result>
+        </action>
 
-	<p>Struts page, I will add actions once I make the java file </p>
+        <action name="loginUser" class="UserClass" method="login">
+            <result name="SUCCESS">/loginsuccess.jsp</result>
+            <result name="FAILURE">/loginfail.jsp</result>
+        </action>
+
+        <action name="logoutUser" class="UserClass" method="logout">
+            <result name="SUCCESS">/logout.jsp</result>
+        </action>
 		
     </package>
 </struts>
