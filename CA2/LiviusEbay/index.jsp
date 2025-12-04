@@ -11,8 +11,6 @@
     <body>
         <h1>Welcome to LiviusEbay</h1>
 
-        <p>This is the jps responsible for the index page</p></br>
-
         <a href="login.jsp">Login</a> |
         <a href="register.jsp">Register</a>
     </body>
